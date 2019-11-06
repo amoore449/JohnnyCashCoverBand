@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <meta charset="utf-8">
+    <title>Johnny Cash Cover Band</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <style type="text/css">
+        	h1 {
+            text-align: right;
+             margin: 20px;
+          }
+          h2{
+            text-align: right;
+             margin: 20px;
+          }
+          body{
+            font-size: 12px;
+          }	
+          html {
+            background-image:url("https://images3.alphacoders.com/234/thumb-1920-234335.jpg");
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+          }
+          p {
+            display: inline;
+          }
+          #words{
+            float: right;
+          
+          }
+          #genchoose {
+             background-color:rgba(113, 116, 121, .7);
+            color: #F6F7F9;
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+            font-size: 1.5vh;
+          }
+          #songkick {
+   background-color:rgba(113, 116, 121, .7);
+            color: #F6F7F9;
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+            font-size: 1.5vh;
+          }
+          #des_ser{
+   background-color:rgba(113, 116, 121, .7);
+            color: #F6F7F9;
+            margin: 20px;
+            padding: 20px;
+            font-size: 1.5vh;s
+          }
+
+          #song0, #song1, #song2, #song3, #song4, #song5, #song6, #song7, #song8, #song9 {
+            font-weight: bold;
+            font-size: 3vh;
+          }
+
+          #rest0, #rest1, #rest2, #rest3, #rest4, #rest5, #rest6, #rest7, #rest8, #rest9 {
+            font-size: 2vh;
+          }
+          h3 {
+            font-size: 4vh;
+            font-style: italic;
+          }
+      </style>
+    </head>
+  <body>
+   
+
+    <!--CONTENT!-->
+     <div id ="words">
+
+       <!--HEADER!-->
+    <h1>Johnny No Graves & The Cash Cowbois</h1>
+    <h2>A Johnny Cash Cover Band</h2>
+        <!--FORM-->
+        <form  id="genchoose">
+        Select Genre:
+            <select id = "genpick" name="Choose Genre" form="genchoose">
+            </select>
+            <input type="button" id="submit" value="Find Songs!" onclick ="displayThis()">
+      </form>
+  
+        <!--DISPLAY OF SETLIST!-->
+        <div id = "songkick">
+        <h3>------Setlist------</h3>
+         <p id = "song0"></p>
+         <br/>
+         <p id = "rest0"></p>
+         <br/>
+         <br/>
+
+
+         <p id = "song1"></p>
+         <br/>
+         <p id = "rest1"></p>
+         <br/>
+         <br/>
+
+         <p id = "song2"></p>
+         <br/>
+         <p id = "rest2"></p>
+         <br/>
+         <br/>
+
+         <p id = "song3"></p>
+         <br/>
+         <p id = "rest3"></p>
+         <br/>
+         <br/>
+
+         <p id = "song4"></p>
+         <br/>
+         <p id = "rest4"></p>
+         <br/>
+         <br/>
+
+         <p id = "song5"></p>
+         <br/>
+         <p id = "rest5"></p>
+         <br/>
+         <br/>
+
+         <p id = "song6"></p>
+         <br/>
+         <p id = "rest6"></p>
+         <br/>
+         <br/>
+
+         <p id = "song7"></p>
+         <br/>
+         <p id = "rest7"></p>
+         <br/>
+         <br/>
+        
+
+         <p id = "song8"></p>
+         <br/>
+         <p id = "rest8"></p>
+         <br/>
+         <br/>
+
+         <p id = "song9"></p>
+         <br/>
+         <p id = "rest9"></p>
+         <br/>
+         <br/>
+      </div>
+
+       <!--SERIALIZED DISPLAY!-->
+        <div id="des_ser"></div>
+
+
+   </div>
+  <script type="text/javascript" src="johnnycash.js"></script>
+
+
+</body>
+</html>
